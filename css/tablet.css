@@ -1,0 +1,265 @@
+html,
+body {
+    max-width: 800px;
+    overflow-x: hidden;
+}
+
+#welcome-header {
+    font-size: 20px;
+}
+
+/*CURVED*/
+#curved {
+    background: none;
+    border: none;
+    margin: 40px;
+}
+
+#curved h1 {
+    color: black;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+/*NAV*/
+header {
+    height: 100px;
+}
+
+header nav {
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+
+header nav ul {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+header nav ul li {
+    margin: 0px auto;
+    display: inline-block;
+    width: calc(95% / 5);
+    height: auto;
+    padding: 10px 0px;
+}
+
+header nav ul li a {
+    display: block;
+    margin: auto;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.lugares-box {
+    width: auto;
+    height: 400px;
+    margin: 30px auto;
+    padding: 0px;
+    border: none;
+    box-sizing: content-box;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.lugares-box .texto {
+    width: 100%;
+    margin: auto;
+    border: none;
+    height: 100%;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px black;
+}
+
+.lugares-box .imagen {
+    display: none;
+}
+
+/*FIN DEL INDEX HTML*/
+/*INICIO DE INFORMACIÓN HTML*/
+
+.sitios-box {
+    width: 100%;
+    height: auto;
+}
+
+.sitios-box .imagen {
+    display: none;
+}
+
+.dias-festivos {
+    width: 100%;
+    background-color: white;
+}
+
+.dias-festivos ul li {
+    font-size: 18px;
+}
+
+/*FIN DE INFORMACIÓN HTML*/
+/*INICIO DE MONUMENTOS HTML*/
+
+.box-line {
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+}
+
+.box-container h2 {
+    font-size: 20px;
+}
+
+/*FIN DE MONUMENTOS HTML*/
+/*INICIO DE SOBRE NOSOTROS HTML*/
+#vision,
+#mision {
+    display: block;
+    min-height: 600px;
+}
+
+#vision-title,
+#mision-title {
+    width: 40%;
+    height: 80px;
+}
+
+#vision-title h2,
+#mision-title h2 {
+    padding: 15px;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+#vision-left,
+#mision-left {
+    display: block;
+    float: none;
+    clear: both;
+    width: 100%;
+    height: 230px;
+}
+
+#mision-title {
+    margin-left: 100%;
+    margin-top: 30px;
+}
+
+#vision-right,
+#mision-right {
+    display: inline;
+    float: none;
+    margin: 0px auto;
+    height: 350px;
+}
+
+#mision-left {
+    height: 300px;
+}
+
+#vision-image img,
+#mision-image img {
+    width: 324px;
+    height: 324px;
+}
+
+#nosotros {
+    display: block;
+}
+
+#nosotros-title {
+    width: 80%;
+}
+
+#nosotros-title h2 {
+    font-size: 15px;
+
+}
+
+#nosotros-imagen img {
+    overflow: hidden;
+    width: 100%;
+}
+
+/*FIN DE SOBRE NOSOTROS HTML*/
+/*INICIO CONTACTO HTML*/
+
+#form_buttons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.form_btn {
+    max-width: 250px;
+    width: 50%;
+    margin: 15px;
+}
+
+#check-container {
+    display: block;
+    width: 80%;
+    min-width: 200px;
+    height: 250px;
+}
+
+
+.label_check {
+    display: block;
+    width: 60%;
+    min-width: 200px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#form_checkbox {
+    display: block;
+    height: 30px;
+    width: 80%;
+}
+
+/*FIN DE CONTACTO HTML*/
+
+/*FOOTER*/
+footer {
+    max-width: 100%;
+    height: 1000px;
+    background-color: black;
+}
+
+#container-footer {
+    max-width: 100%;
+    margin: 0px auto;
+}
+
+#container-footer #left,
+#center,
+#right {
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+    margin: 20px;
+}
+
+#container-footer #left h2,
+#center h2,
+#right h2 {
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+
+#container-footer ul li {
+    color: white;
+    display: block;
+    margin: 20px;
+    font-size: 20px;
+}

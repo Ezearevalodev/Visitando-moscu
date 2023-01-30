@@ -1,0 +1,750 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/*GENERALES*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background: #423695 url('https://www.transparenttextures.com/patterns/black-scales.png');
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*INICIO*/
+
+#welcome {
+    width: 1200px;
+    height: 870px;
+    margin: 50px auto;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 15px;
+    color: black;
+}
+
+#welcome-header {
+    font-size: 50px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+
+#welcome-text {
+    padding: 60px;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#welcome-picture {
+    display: block;
+    background: url('../img/index/moscow.webp') no-repeat center center;
+    width: 90%;
+    height: 421px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#welcome-btn {
+    width: 100%;
+    height: auto;
+}
+
+#btn {
+    cursor: pointer;
+    display: block;
+    padding: 15px 30px;
+    font-size: 25px;
+    color: white;
+    background-color: #423695;
+    margin: auto;
+    text-align: center;
+}
+
+.active {
+    color: crimson;
+}
+
+/*CABECERA + NAV*/
+
+header {
+    width: 100%;
+    height: 600px;
+}
+
+.cabecera {
+    width: 100%;
+    height: 40px !important;
+}
+
+header nav {
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+header nav ul {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+header nav ul li {
+    display: inline-block;
+    width: calc(95% / 5);
+    background-color: black;
+}
+
+header nav ul li a:hover {
+    transition: all 300ms;
+    background-color: rgb(54, 54, 54);
+}
+
+header nav ul li a {
+    display: block;
+    font-size: 23px;
+    line-height: 74.77px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+#curved {
+    position: relative;
+    max-width: 1800px;
+    height: 550px;
+    margin: 0px auto;
+    background: url('../img/index/imagen-kremlin.webp') no-repeat center center;
+    border: 1px solid black;
+    border-bottom-left-radius: 50% 100%;
+    border-bottom-right-radius: 50% 100%;
+    z-index: 2;
+}
+
+#curved h1 {
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    font-size: 120px;
+    line-height: 300px;
+    text-align: center;
+}
+
+/*INDEX | HISTORIA*/
+#historia {
+    max-width: 1200px;
+    height: auto;
+    margin: 60px auto;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+
+#historia h2 {
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+    border-bottom: 1px solid black;
+}
+
+#historia p {
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*INDEX | LUGARES*/
+
+#lugares {
+    width: 80%;
+    height: auto;
+    margin: 30px auto;
+}
+
+#lugares h2 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.lugares-box {
+    max-width: 1200px;
+    height: 400px;
+    margin: 60px auto;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.lugares-box .imagen {
+    float: left;
+    width: 50%;
+    height: 400px;
+}
+
+.lugares-box .texto {
+    float: right;
+    width: 50%;
+    height: 400px;
+}
+
+.lugares-box .texto-header {
+    text-align: center;
+    font-size: 30px;
+    padding: 25px;
+}
+
+.lugares-box .texto-text {
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.4;
+    padding: 10px;
+    font-style: italic;
+
+}
+
+/*INFORMACIÓN | SITIOS*/
+#sitios {
+    margin-top: 160px;
+}
+
+#sitios h2 {
+    margin: 30px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+#sitios h2:nth-child(1),
+#sitios h2:nth-child(3) {
+    color: black;
+}
+
+.sitios-box {
+    width: 80%;
+    max-width: 1200px;
+    height: auto;
+    margin: 60px auto;
+    background-color: white;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.sitios-box .imagen {
+    float: left;
+    width: 50%;
+    height: 400px;
+}
+
+.sitios-box .texto {
+    float: right;
+    width: 50%;
+    height: 400px;
+}
+
+.sitios-box .texto-header {
+    text-align: center;
+    font-size: 30px;
+    padding: 25px;
+}
+
+.sitios-box .texto-text {
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.4;
+    padding: 25px;
+    font-style: italic;
+}
+
+.dias-festivos {
+    width: 600px;
+    height: 400px;
+    margin: 60px auto;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.dias-festivos li {
+    display: block;
+    margin: 15px;
+}
+
+/*INFORMACIÓN | MONUMENTOS*/
+.box-container {
+    margin-top: 90px;
+}
+
+.box-container h2 {
+    max-width: 1200px;
+    height: 100px;
+    line-height: 100px;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #423695;
+    color: white;
+    font-size: 30px;
+}
+
+.box-line {
+    max-width: 1150px;
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+}
+
+.box-content {
+    display: block;
+    float: left;
+    width: 20%;
+    min-width: 320px;
+    height: 600px;
+    margin: 30px;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 15px #f4f4f4;
+}
+
+.box-title {
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.box-text {
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#video-container {
+    display: block;
+    max-width: 1200px;
+    width: 80%;
+    height: 600px;
+    margin: 60px auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#video-container iframe {
+    border: none;
+}
+
+/*SOBRE NOSOTROS HTML*/
+#contenido {
+    width: 80%;
+    min-height: 1200px;
+    margin: 60px auto;
+}
+
+#vision,
+#mision,
+#nosotros {
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    margin: 120px auto;
+    background-color: white;
+    border-radius: 15px;
+    border: 15px double #423695;
+}
+
+#vision-left,
+#mision-left {
+    float: left;
+    width: 50%;
+    height: 80%;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+#mision-left {
+    margin-top: 60px;
+}
+
+#vision-right,
+#mision-right {
+    float: right;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#mision-right {
+    margin-top: 30px;
+}
+
+#vision-title,
+#mision-title {
+    width: 68%;
+    height: 64px;
+    background-color: #423695;
+    border-radius: 0px 50px 50px 0px;
+}
+
+#mision-title {
+    display: block;
+    float: right;
+    width: 70%;
+    margin-left: 300px;
+    margin-bottom: 30px;
+    border-radius: 50px 0px 0px 50px;
+}
+
+#vision-title h2,
+#mision-title h2,
+#nosotros-title h2 {
+    text-align: right;
+    padding: 15px 2px;
+    color: snow;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+#mision-title h2 {
+    text-align: left;
+}
+
+#nosotros-title h2 {
+    text-align: center;
+}
+
+#vision-texto,
+#mision-texto {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+
+#vision-texto p,
+#mision-texto p {
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+
+/*Sobre Nosotros*/
+#nosotros-title {
+    display: block;
+    color: snow;
+    background-color: #423695;
+    width: 400px;
+    height: 70px;
+    text-align: center;
+    margin: 0px auto;
+    border-radius: 0px 0px 50px 50px;
+}
+
+#nosotros-texto {
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+    margin: 15px;
+    font-size: 20px;
+}
+
+/*CONTACTO HTML*/
+/*FORMULARIO*/
+#form {
+    background-color: white;
+    margin: 60px auto;
+    max-width: 1200px;
+    width: 80%;
+    height: auto;
+    padding: 72px 48px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px 5px rgb(0 0 0 / 30%);
+    text-align: center;
+}
+
+.form_title {
+    font-size: 32px;
+    margin-bottom: 8px;
+    color: black;
+}
+
+#form_subtitle {
+    color: gray;
+    font-weight: 300;
+}
+
+#form_container {
+    margin-top: 48px;
+    display: grid;
+    gap: 40px;
+}
+
+.form_group {
+    position: relative;
+    color: white;
+}
+
+.form_input {
+    font-family: 'Roboto', sans-serif;
+    width: 45%;
+    color: gray;
+    font-size: 16px;
+    padding: 9.6px 4.8px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+
+.form_label {
+    color: black;
+    position: static;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    background-color: #423695;
+    color: white;
+    font-size: 18px;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+
+#form_buttons {
+    width: 50%;
+    height: 60px;
+    margin: 20px auto;
+}
+
+.form_btn {
+    display: inline-block;
+    width: 250px;
+    padding: 15px;
+    background-color: #423695;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+}
+
+#check-container {
+    width: 40%;
+    min-width: 400px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px 5px rgb(0 0 0 / 30%);
+    padding: 20px;
+}
+
+#check-container label {
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+    margin: 10px;
+    text-align: right;
+}
+
+#form_texto {
+    width: 40%;
+    min-width: 400px;
+    height: 300px;
+    padding: 10px;
+    resize: none;
+}
+
+#gracias-box {
+    max-width: 1200px;
+    max-height: 600px;
+    margin: 60px auto;
+    background: #f4f4f4;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px 5px rgb(0 0 0 / 30%);
+    padding: 20px;
+    overflow: hidden;
+}
+
+#gracias-box span {
+    display: block;
+    padding: 15px;
+    font-size: 35px;
+    text-align: center;
+}
+
+#gracias-imagen img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/*FOOTER*/
+footer {
+    max-width: 100%;
+    height: 600px;
+    background-color: black;
+}
+
+#container-footer {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#container-footer #left,
+#center,
+#right {
+    display: block;
+    float: left;
+    width: calc(80% / 3);
+    height: 500px;
+    margin: 20px;
+}
+
+#container-footer #left h2,
+#center h2,
+#right h2 {
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+
+#container-footer ul li {
+    color: white;
+    display: block;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    color: crimson;
+}
+
+/*MEDIA QUERYES | Index */
+@media (max-width: 1440px) {
+
+    .texto {
+        display: block;
+        width: 100%;
+        height: 300px;
+        margin-bottom: 40px;
+    }
+
+    .lugares-box {
+        width: 600px;
+        min-height: 700px;
+        margin: 30px auto;
+        border: none;
+    }
+
+    .lugares-box .imagen {
+        float: right;
+        display: block;
+        width: 600px;
+        height: 400px;
+    }
+
+    .lugares-box .texto {
+        float: right;
+        display: block;
+        width: 600px;
+        height: auto;
+        margin: 30px auto;
+        border: 1px solid black;
+    }
+
+    /*MEDIA QUERYES | INFORMACIÓN */
+
+    .lugares-box {
+        width: 600px;
+        margin: 30px auto;
+        border: none;
+    }
+
+    .lugares-box .imagen {
+        float: right;
+        display: block;
+        width: 600px;
+        height: 400px;
+    }
+
+    .lugares-box .texto {
+        float: right;
+        display: block;
+        width: 600px;
+        height: auto;
+        margin: 30px auto;
+        border: 1px solid black;
+    }
+
+    .sitios-box {
+        width: 600px;
+        height: 900px;
+    }
+
+    .sitios-box .imagen {
+        float: left;
+        width: 100%;
+        height: 400px;
+    }
+
+    .sitios-box .texto {
+        float: right;
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        float: none;
+        clear: both;
+    }
+
+}
+
+
+@media (max-width: 1144px) {
+
+    .box-line {
+        width: auto;
+        height: auto;
+        margin: 0px auto;
+    }
+
+}
